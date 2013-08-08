@@ -1,0 +1,14 @@
+{
+  "name": "POSTGRESQL",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "description": "",
+  "run_list": [
+    "recipe[postgresql::install]",
+    "recipe[postgresql::initdb]"
+  ],
+  "env_run_lists" : {}, 
+  "override_attributes": {} 
+}

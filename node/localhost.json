@@ -1,0 +1,6 @@
+{
+  "run_list":[
+    "role[POSTGRESQL]",
+    "role[JOBSCHEDULER]"
+  ]
+}

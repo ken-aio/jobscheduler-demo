@@ -1,0 +1,13 @@
+{
+  "name": "JOBSCHEDULER",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "description": "",
+  "run_list": [
+    "recipe[jobscheduler::install]"
+  ],
+  "env_run_lists" : {}, 
+  "override_attributes": {} 
+}
